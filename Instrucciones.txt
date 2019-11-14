@@ -1,0 +1,11 @@
+Instrucciones para ejecutar los archivos:
+
+1. abrir el archivo html de cada clase correspondiente, estan enumeras y se representan ocn su extención correspondiente.
+
+2. abrir la consola de un navegador web (chrome, firefox, etc) se puede abrir con crtl + Alt + i (En linux, en windows pueden investigar)
+
+3. pueden poner los procedimientos de todo esto, ejemplo, pueden irse a la clase5js
+
+4. para darles un ejemplo de como ejecutar una "function" pueden irse a la clase 5, y veran un "imprimirNombreEnMayusculas(Dav)" eso lo pueden poner en el navegador, y se ejecutará.
+
+5. todo sera consecutivamente asi, repasen, eso es un aporte para aprender JS, desde consola, como deberian de aprender todo idioma de programación
