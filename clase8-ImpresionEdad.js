@@ -24,6 +24,7 @@ imprimirNombreEnMayusculas({ nombre: 'Diego'})
 
 function cumpleaanos(persona){
     return{
+        // Estamos usando el parametro persona de la funcion
         ...persona,
         edad: persona.edad + 1
     }

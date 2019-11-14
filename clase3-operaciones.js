@@ -1,3 +1,4 @@
+//Operaciones con tipos de datos (variables y Magic Valors)
 var edad = 27
 
 //edad = edad +1

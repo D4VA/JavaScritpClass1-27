@@ -1,3 +1,5 @@
+/* La Documentacion esta en la clase26.js
+    ahi estara como una explicacion de como funciona */
 class Persona {
     constructor (nombre, apellido, altura){
         this.nombre = nombre

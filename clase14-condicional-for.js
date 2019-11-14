@@ -1,3 +1,8 @@
+/* Constastes lineales(con operaciones), y Condicional While 
+    La palabra debugger es por si hay algún probema a la hora
+    de compilar
+*/
+
 var Dav = {
     nombre:'Andres',
     apellido: 'Avila',
@@ -24,6 +29,8 @@ const META = Dav.peso - 3
 var dias = 0
 
 while (Dav.peso > META) {
+    //JS hace el intento por compilar todo, pero cuando falla y no sabe el porque
+    // esta palabra te dice en consola, donde esta el error, o que es lo incorrecto
     debugger
     if(comeMucho()){
         aumentarDePeso(Dav)

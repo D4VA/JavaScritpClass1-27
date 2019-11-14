@@ -1,10 +1,13 @@
+/* Funciones con parametros */
 class Persona {
+    //el constructor se encuentra como si fuera una variables
+    //Son datos que se declaran
     constructor (nombre, apellido, altura){
         this.nombre = nombre
         this.apellido = apellido
         this. altura = altura
 }
-
+    //saludar(fn) esta dandole parametros
     saludar(fn){
         var {nombre, apellido} = this
         console.log(`Hola, me llamo ${nombre} ${apellido}`)
@@ -32,7 +35,8 @@ class Desarrollador extends Persona{
         }
     }
 }
-
+// si la persona es Desarrolador (se instancia el objeto como desarrollador)
+// entonces se esjecura lo que esta en esta funcion y se imprimira en consola
 function responderSaludo (nombre, apellido, esDev){
     console.log(`Buen dia ${nombre} ${apellido}`)
     if(esDev){
@@ -40,7 +44,8 @@ function responderSaludo (nombre, apellido, esDev){
     }
 }
 
-
+//estan las funciones desarrollador y persona
+//dependiendo cual sea, se ejecutara esa funcion
 var Dav = new Desarrollador ('Dav', 'Avila', 1.70)
 var Melanie = new Persona ('Melanie', 'Payes', 1.69)
 var Juan = new Persona('Juan Jose', 'Soria', 1.80)
