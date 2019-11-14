@@ -4,7 +4,10 @@ function persona(nombre, apellido, estatura){
     this.estatura = estatura
     this.edad = 20
 }
-
+//Cualquier valor siempre se declara como constante
+//si es un valor fijo
+// preferible no caer en datos 'Magics Valors'
+//valores declarados en una funcion.
 const ESTATURA_ALTA = 180
 
 persona.prototype.saludar = function (){

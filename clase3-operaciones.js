@@ -1,6 +1,10 @@
 //Operaciones con tipos de datos (variables y Magic Valors)
+// magig valors son aquellos que no son declarados
+// como variables (var) o constantes (const)
 var edad = 27
 
+//como esta abajo,tambien tiene la misma funcion
+//pero esta simplificado como la usamos
 //edad = edad +1
 edad += 1
 

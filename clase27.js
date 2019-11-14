@@ -1,0 +1,1 @@
+//Como funciona el tiempo en javascript, ver clase27.html
